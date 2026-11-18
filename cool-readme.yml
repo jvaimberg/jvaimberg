@@ -1,9 +1,9 @@
 user: jvaimberg
 
-show: [summary, languages, contributions, weekly]
+show: [summary, languages, contributions, weekly, streaks, about, repos]
 
 count:
-  private: false
+  private: true
   orgs: true
 
 look:
@@ -31,3 +31,14 @@ cards:
     hide: []
   weekly:
     title: Weekly rhythm
+  streaks:
+    title: Streaks
+  about:
+    title: About
+    headline: null
+    lines: []
+    facts: {}
+  repos:
+    title: Top repos
+    count: 6
+    hide: []
